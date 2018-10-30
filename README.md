@@ -14,9 +14,14 @@ The repository demonstrates how to
 
 If you want to install a specific version of Stencila, e.g. the `stencila` R package or `stencila/py`, or the `stencila-host` npm package, then you must configure your own `Dockerfile`.
 
-`repo2docker` goes through all directories and uses the last discovered `manifest.xml` as the default, in this case `brticle/manifest.xml`.
-To open the document in the directory `article/doc/manifest.xml`, append the URL parameter `archive=<directory>`:
+`repo2docker` goes through all directories and uses the first discovered `manifest.xml` as the default, in this case `article/manifest.xml` (with R code).
+To open the document in the directory `brticle`, append the URL parameter `archive=<directory>`:
 
 ```
-http(s)://<server:port>/stencila/?archive=article/doc
+http(s)://<server:port>/stencila/?archive=article
 ```
+
+**Important notes**
+
+- nested directories do not work, only documents at the same levels as the last discovered one can be opened.
+- only the source code languages of the first Dar are supported (in our example the Python Jupyter code cell one still works, because Jupyter is always installed, but other cells not)
