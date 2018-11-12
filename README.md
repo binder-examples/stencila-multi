@@ -1,8 +1,8 @@
-# stencila-r
+# stencila-multi
 
 Demo for Stencila &amp; Dar on binder with multiple documents in one repository.
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/nuest/stencila-multi/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/stencila-multi/master?urlpath=stencila)
 
 Learn more about [Stencila](https://stenci.la/) and it's integration with [Binder](https://mybinder.org/) in this blog post: [TODO](TODO)
 
