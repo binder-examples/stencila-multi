@@ -4,7 +4,7 @@ Demo for Stencila &amp; Dar on binder with multiple documents in one repository.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/binder-examples/stencila-multi/master?urlpath=stencila)
 
-Learn more about [Stencila](https://stenci.la/) and it's integration with [Binder](https://mybinder.org/) in this blog post: [TODO](TODO)
+Learn more about [Stencila](https://stenci.la/) and its integration with [Binder](https://mybinder.org/) in this [blog post](https://elifesciences.org/labs/d42fe2b9/integrating-binder-and-stencila-the-building-blocks-to-increased-open-communication-and-transparency).
 
 `repo2docker` automatically picks up all `manifest.xml` files and `*.jats.xml` files in a repository.
 The repository demonstrates how to
